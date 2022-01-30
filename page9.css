@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+#nav{
+    display: flex;
+    width: 100%;
+    height: 8%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 9, 9);
+    padding-left: 52%;
+    padding-right: 1%;
+    font-weight: 500;
+}
+
+#nav a,i{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#nav a:hover,i:hover{
+    cursor: pointer;
+    color: #555;
+}
+
+#nav h3{
+    position: absolute;
+    left: 6%;
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#left{
+    position: absolute;
+    width: 50%;
+    height: 92%;
+    background-image: url(https://images.unsplash.com/photo-1503328427499-d92d1ac3d174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#left h1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family: sans-serif;
+    font-size: 150px;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+#text{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    left: 52%;
+    top: 25%;
+    line-height: .9;
+}
+
+#text h2{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 200;
+    top: -25%;
+    left: 5%;
+    word-spacing: 2px;
+}
+
+#text h3{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    bottom: 10%;
+    right: -295%;
+    word-spacing: 2px;
+}
+
+#text #tagline{
+    position: absolute;
+    width: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 1.5;
+    word-spacing: 2px;
+    left: 3%;
+    bottom: -35%;
+}
+
+#text i{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    bottom: -2%;
+}
+
+#text #s1{
+    position: absolute;
+    right: -255%;
+}
+
+#text #s2{
+    position: absolute;
+    right: -265%;
+}
+
+#text #s3{
+    position: absolute;
+    right: -275%;
+}
+
+#text #s4{
+    position: absolute;
+    right: -285%;
+}
+
+#text #s5{
+    position: absolute;
+    right: -295%;
+    color: #333;
+}
+
+#box{
+    display: flex;
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    left: 50%;
+    top: 60%;
+    justify-content: space-around;
+    
+}
+
+#box #watch1,#watch2,#watch3{
+    width: 27%;
+    height: 100%;
+    border: .1px solid rgb(160, 160, 160);
+    border-radius: 2px;
+    background-position: center;
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+
+#box #watch1{
+    background-image: url(https://images.unsplash.com/photo-1612771409641-b0478cab8b69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+
+#box #watch2{
+   background-image: url(https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+
+#box #watch3{
+    background-image: url(https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGJsYWNrJTIwd2F0Y2hlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+#box #watch1:hover,#watch2:hover,#watch3:hover{
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+#btm{
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    bottom: 10%;
+    left: 51.5%;
+    font-family: Gilroy;
+    font-weight: 100;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#btm:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+#arrow{
+    position: absolute;
+    bottom: 3%;
+    left: 51%;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#btn i{
+    position: absolute;
+    right: 5%;
+    bottom: 9%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#btn h5{
+    position: absolute;
+    bottom: 6.5%;
+    right: 4.8%;
+    color: #fff;
+    font-size: 15px;
+}
+
+#btn h6{
+    position: absolute;
+    color: #fff;
+    font-size: 12px;
+    right: 5.9%;
+    bottom: 4%;
+}
+
+#btn #reset{
+    position: absolute;
+    font-size: 12px;
+    bottom: 4%;
+    right: 4.9%;
+}
